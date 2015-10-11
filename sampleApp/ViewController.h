@@ -8,7 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController {
+    IBOutlet UITextField *tfHeight;
+    IBOutlet UITextField *tfWeight;
+    IBOutlet UIButton *btnCalc;
+    IBOutlet UILabel *labelBmiTitle;
+    IBOutlet UILabel *lavelBmiValue;
+    IBOutlet UILabel *lavelBmiText;
+}
 
 
 @end
